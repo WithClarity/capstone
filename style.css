@@ -1,0 +1,20 @@
+
+@font-face{
+  font-family:Undertale;
+  src:url(font/DTM-Sans.otf) format("opentype");
+}
+
+body {
+  background-color: black;
+  font-family:Undertale;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size:50px
+}
+
+audio {
+  display:none
+}
