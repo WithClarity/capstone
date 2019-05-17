@@ -13,7 +13,19 @@ body {
 }
 
 h1 {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  border: 5px solid white;
   font-size:50px
+  height: 70px;
+  width: 30%;
+}
+
+p {
+  background-color: black;
+  border: 5px solid white;
+  padding: 10px;
 }
 
 audio {
