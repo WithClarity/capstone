@@ -1,24 +1,22 @@
 
 @font-face{
-  font-family:Undertale;
-  src:url(font/DTM-Sans.otf) format("opentype");
+  font-family: Garamond;
 }
 
 body {
   background-image: url("images/background-pattern.png");
   background-repeat: repeat;
-  font-family:Undertale;
+  font-family:Garamond;
   color: white;
   text-align: center;
 }
 
 h1 {
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px 20px;
   background-color: black;
   border: 5px solid white;
   font-size:50px;
-  height: 70px;
   width: 30%;
 }
 
@@ -29,6 +27,13 @@ p {
   text-align: center;
 }
 
-audio {
-  display:none
+footer {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  border: 5px solid white;
+  width: 20%;
 }
