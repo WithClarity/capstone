@@ -12,9 +12,13 @@
       <br>
         1. Get a copy of Morrowind. [<a href="https://www.gog.com/game/the_elder_scrolls_iii_morrowind_goty_edition"target="_blank">Option 1</a>] [<a href="https://www.gog.com/game/the_elder_scrolls_iii_morrowind_goty_edition"target="_blank">Option 2</a>] <a href="files\Morrowind.torrent">.</a> and install it, <b>keep track of where you install it.</b>
       <br>
-        2. Install <a href="https://chocolatey.org/install">Chocolaty</a> to quick install the next step, copy and paste into a command prompt open as administrator for quick easy installation.
+        2. Install <a href="https://chocolatey.org/install">Chocolatey</a> to quick install the next step, copy and paste into a command prompt open as administrator for quick easy installation. (Command Prompt as admin)
+          <br>Use this command(double click the command and copy):<br>
+          <code>@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"</code>
       <br>
-        3. Install <a href="https://chocolatey.org/search?q=OpenMW">OpenMW</a> using the install script listed in the OpenMW chocolatey script.
+        3. Install <a href="https://chocolatey.org/search?q=OpenMW">OpenMW</a> using the install script listed in the OpenMW chocolatey script(paste it in command prompt as admin). <br>
+        Which should be:
+        <code>choco install openmw</code>
       <br>
         4. Open OpenMW Wizard and search for where you installed your original copy of Morrowind.
       <br>

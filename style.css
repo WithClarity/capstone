@@ -11,6 +11,13 @@ body {
   text-align: center;
 }
 
+code {
+  background-color: #DAF7A6;
+  color: black;
+  word-wrap: break-word;
+  width: 20%;
+}
+
 h1 {
   margin: 0 auto;
   padding: 20px 20px;
